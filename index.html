@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gareth Haagman</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            background: white;
+            color: black;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .center-content {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            background: white;
+            padding: 20px;
+            max-width: 90vw;
+            box-sizing: border-box;
+        }
+        h1 {
+            font-weight: normal;
+            margin: 0 0 20px 0;
+        }
+        .roles {
+            margin: 0 0 20px 0;
+        }
+        .roles p {
+            margin: 0 0 5px 0;
+            font-style: italic;
+        }
+        p {
+            margin: 0 0 10px 0;
+        }
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        a {
+            color: black;
+            text-decoration: underline;
+            white-space: nowrap;
+        }
+        
+        /* Mobile styles */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 14px;
+            }
+            .links {
+                font-size: 14px;
+                gap: 15px;
+            }
+            .center-content {
+                padding: 15px;
+            }
+        }
+        
+        /* Tablet styles */
+        @media (min-width: 769px) and (max-width: 1024px) {
+            h1 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 16px;
+            }
+            .links {
+                font-size: 16px;
+            }
+        }
+        
+        /* Desktop styles */
+        @media (min-width: 1025px) {
+            h1 {
+                font-size: 24px;
+            }
+            p {
+                font-size: 18px;
+            }
+            .links {
+                font-size: 16px;
+            }
+        }
+        
+        /* Large desktop styles */
+        @media (min-width: 1440px) {
+            h1 {
+                font-size: 28px;
+            }
+            p {
+                font-size: 20px;
+            }
+            .links {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="center-content">
+        <h1>Gareth Haagman</h1>
+        <div class="roles">
+            <p>Founding Engineer @ <a href="https://www.testudo.co">Testudo</a></p>
+            <p>AI Engineer @ <a href="https://www.goldmansachs.com">Goldman Sachs</a></p>
+        </div>
+        <div class="links">
+            <a href="https://github.com/garethhaagman">GitHub</a>
+            <a href="https://linkedin.com/in/garethhaagman">LinkedIn</a>
+        </div>
+    </div>
+    
+</body>
+</html>
